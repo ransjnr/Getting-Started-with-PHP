@@ -13,12 +13,17 @@
     $a = 1;
     $b = 4;
     
+    //if else
     if ($a < $b && !$bool){
         echo "First condition is true!";
     } 
     else if ($a < $b && $bool){
         echo "Second condition is true!";
+    } else {
+        echo "No condition is true!";
     }
+    //swich case
+    
     ?>
 </body>
 
